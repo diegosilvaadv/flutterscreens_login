@@ -189,6 +189,7 @@ class _Loginpage1WidgetState extends State<Loginpage1Widget> {
                                       lineHeight: 4,
                                     ),
                                 textAlign: TextAlign.start,
+                                keyboardType: TextInputType.visiblePassword,
                               ),
                             ),
                           ),
