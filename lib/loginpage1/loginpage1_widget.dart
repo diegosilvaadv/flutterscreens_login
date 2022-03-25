@@ -81,6 +81,7 @@ class _Loginpage1WidgetState extends State<Loginpage1Widget> {
                             controller: textController1,
                             obscureText: false,
                             decoration: InputDecoration(
+                              labelText: 'E-mail ou Nome de Usuário',
                               hintText: 'E-mail ou Nome de Usuário',
                               enabledBorder: UnderlineInputBorder(
                                 borderSide: BorderSide(
@@ -154,27 +155,10 @@ class _Loginpage1WidgetState extends State<Loginpage1Widget> {
                                 controller: textController2,
                                 obscureText: !passwordVisibility,
                                 decoration: InputDecoration(
+                                  labelText: 'Senha',
                                   hintText: 'Senha',
-                                  enabledBorder: UnderlineInputBorder(
-                                    borderSide: BorderSide(
-                                      color: Colors.transparent,
-                                      width: 1,
-                                    ),
-                                    borderRadius: const BorderRadius.only(
-                                      topLeft: Radius.circular(4.0),
-                                      topRight: Radius.circular(4.0),
-                                    ),
-                                  ),
-                                  focusedBorder: UnderlineInputBorder(
-                                    borderSide: BorderSide(
-                                      color: Colors.transparent,
-                                      width: 1,
-                                    ),
-                                    borderRadius: const BorderRadius.only(
-                                      topLeft: Radius.circular(4.0),
-                                      topRight: Radius.circular(4.0),
-                                    ),
-                                  ),
+                                  enabledBorder: InputBorder.none,
+                                  focusedBorder: InputBorder.none,
                                   prefixIcon: FaIcon(
                                     FontAwesomeIcons.passport,
                                     color: Colors.white,
