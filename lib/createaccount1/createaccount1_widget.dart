@@ -57,8 +57,8 @@ class _Createaccount1WidgetState extends State<Createaccount1Widget> {
                   children: [
                     Image.asset(
                       'assets/images/FLUTTER_(1).png',
-                      width: 250,
-                      height: 250,
+                      width: 200,
+                      height: 200,
                       fit: BoxFit.fitWidth,
                     ),
                   ],
@@ -131,144 +131,152 @@ class _Createaccount1WidgetState extends State<Createaccount1Widget> {
                     ),
                   ],
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Expanded(
-                      child: Card(
-                        clipBehavior: Clip.antiAliasWithSaveLayer,
-                        color: Color(0x00F5F5F5),
-                        child: Container(
-                          width: 200,
-                          height: 70,
-                          decoration: BoxDecoration(
-                            color: Colors.transparent,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.transparent,
-                              )
-                            ],
-                            border: Border.all(
-                              color: Color(0x00959595),
-                            ),
-                          ),
-                          child: TextFormField(
-                            controller: textController2,
-                            obscureText: false,
-                            decoration: InputDecoration(
-                              hintText: 'Nome de Usuário',
-                              enabledBorder: UnderlineInputBorder(
-                                borderSide: BorderSide(
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        child: Card(
+                          clipBehavior: Clip.antiAliasWithSaveLayer,
+                          color: Color(0x00F5F5F5),
+                          child: Container(
+                            width: 200,
+                            height: 70,
+                            decoration: BoxDecoration(
+                              color: Colors.transparent,
+                              boxShadow: [
+                                BoxShadow(
                                   color: Colors.transparent,
-                                  width: 1,
-                                ),
-                                borderRadius: const BorderRadius.only(
-                                  topLeft: Radius.circular(4.0),
-                                  topRight: Radius.circular(4.0),
-                                ),
-                              ),
-                              focusedBorder: UnderlineInputBorder(
-                                borderSide: BorderSide(
-                                  color: Colors.transparent,
-                                  width: 1,
-                                ),
-                                borderRadius: const BorderRadius.only(
-                                  topLeft: Radius.circular(4.0),
-                                  topRight: Radius.circular(4.0),
-                                ),
-                              ),
-                              prefixIcon: Icon(
-                                Icons.alternate_email_outlined,
-                                color: Colors.white,
-                                size: 35,
+                                )
+                              ],
+                              border: Border.all(
+                                color: Color(0x00959595),
                               ),
                             ),
-                            style: FlutterFlowTheme.of(context).title3.override(
-                                  fontFamily: 'Montserrat',
-                                  color: Color(0xADFFFFFF),
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w300,
-                                  lineHeight: 4,
+                            child: TextFormField(
+                              controller: textController2,
+                              obscureText: false,
+                              decoration: InputDecoration(
+                                hintText: 'Nome de Usuário',
+                                enabledBorder: UnderlineInputBorder(
+                                  borderSide: BorderSide(
+                                    color: Colors.transparent,
+                                    width: 1,
+                                  ),
+                                  borderRadius: const BorderRadius.only(
+                                    topLeft: Radius.circular(4.0),
+                                    topRight: Radius.circular(4.0),
+                                  ),
                                 ),
-                            textAlign: TextAlign.start,
+                                focusedBorder: UnderlineInputBorder(
+                                  borderSide: BorderSide(
+                                    color: Colors.transparent,
+                                    width: 1,
+                                  ),
+                                  borderRadius: const BorderRadius.only(
+                                    topLeft: Radius.circular(4.0),
+                                    topRight: Radius.circular(4.0),
+                                  ),
+                                ),
+                                prefixIcon: Icon(
+                                  Icons.alternate_email_outlined,
+                                  color: Colors.white,
+                                  size: 35,
+                                ),
+                              ),
+                              style:
+                                  FlutterFlowTheme.of(context).title3.override(
+                                        fontFamily: 'Montserrat',
+                                        color: Color(0xADFFFFFF),
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.w300,
+                                        lineHeight: 4,
+                                      ),
+                              textAlign: TextAlign.start,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                  ],
-                ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Expanded(
-                      child: Card(
-                        clipBehavior: Clip.antiAliasWithSaveLayer,
-                        color: Color(0x00F5F5F5),
-                        child: Container(
-                          width: 200,
-                          height: 70,
-                          decoration: BoxDecoration(
-                            color: Colors.transparent,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.transparent,
-                              )
-                            ],
-                            border: Border.all(
-                              color: Color(0x00959595),
-                            ),
-                          ),
-                          child: TextFormField(
-                            controller: textController3,
-                            obscureText: false,
-                            decoration: InputDecoration(
-                              hintText: 'E-mail',
-                              enabledBorder: UnderlineInputBorder(
-                                borderSide: BorderSide(
-                                  color: Colors.transparent,
-                                  width: 1,
-                                ),
-                                borderRadius: const BorderRadius.only(
-                                  topLeft: Radius.circular(4.0),
-                                  topRight: Radius.circular(4.0),
-                                ),
-                              ),
-                              focusedBorder: UnderlineInputBorder(
-                                borderSide: BorderSide(
-                                  color: Colors.transparent,
-                                  width: 1,
-                                ),
-                                borderRadius: const BorderRadius.only(
-                                  topLeft: Radius.circular(4.0),
-                                  topRight: Radius.circular(4.0),
-                                ),
-                              ),
-                              prefixIcon: Icon(
-                                Icons.email_outlined,
-                                color: Colors.white,
-                                size: 35,
-                              ),
-                            ),
-                            style: FlutterFlowTheme.of(context).title3.override(
-                                  fontFamily: 'Montserrat',
-                                  color: Color(0xADFFFFFF),
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w300,
-                                  lineHeight: 4,
-                                ),
-                            textAlign: TextAlign.start,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        child: Card(
+                          clipBehavior: Clip.antiAliasWithSaveLayer,
+                          color: Color(0x00F5F5F5),
+                          child: Container(
+                            width: 200,
+                            height: 70,
+                            decoration: BoxDecoration(
+                              color: Colors.transparent,
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.transparent,
+                                )
+                              ],
+                              border: Border.all(
+                                color: Color(0x00959595),
+                              ),
+                            ),
+                            child: TextFormField(
+                              controller: textController3,
+                              obscureText: false,
+                              decoration: InputDecoration(
+                                hintText: 'E-mail',
+                                enabledBorder: UnderlineInputBorder(
+                                  borderSide: BorderSide(
+                                    color: Colors.transparent,
+                                    width: 1,
+                                  ),
+                                  borderRadius: const BorderRadius.only(
+                                    topLeft: Radius.circular(4.0),
+                                    topRight: Radius.circular(4.0),
+                                  ),
+                                ),
+                                focusedBorder: UnderlineInputBorder(
+                                  borderSide: BorderSide(
+                                    color: Colors.transparent,
+                                    width: 1,
+                                  ),
+                                  borderRadius: const BorderRadius.only(
+                                    topLeft: Radius.circular(4.0),
+                                    topRight: Radius.circular(4.0),
+                                  ),
+                                ),
+                                prefixIcon: Icon(
+                                  Icons.email_outlined,
+                                  color: Colors.white,
+                                  size: 35,
+                                ),
+                              ),
+                              style:
+                                  FlutterFlowTheme.of(context).title3.override(
+                                        fontFamily: 'Montserrat',
+                                        color: Color(0xADFFFFFF),
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.w300,
+                                        lineHeight: 4,
+                                      ),
+                              textAlign: TextAlign.start,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.start,
@@ -340,7 +348,7 @@ class _Createaccount1WidgetState extends State<Createaccount1Widget> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.start,
@@ -412,7 +420,7 @@ class _Createaccount1WidgetState extends State<Createaccount1Widget> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     children: [
@@ -470,7 +478,7 @@ class _Createaccount1WidgetState extends State<Createaccount1Widget> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 70, 0, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
