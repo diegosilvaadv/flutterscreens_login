@@ -16,43 +16,43 @@ abstract class FlutterFlowTheme {
   Color secondaryText;
 
   TextStyle get title1 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 24,
       );
   TextStyle get title2 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: secondaryText,
         fontWeight: FontWeight.w600,
         fontSize: 22,
       );
   TextStyle get title3 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 20,
       );
   TextStyle get subtitle1 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 18,
       );
   TextStyle get subtitle2 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: secondaryText,
         fontWeight: FontWeight.w600,
         fontSize: 16,
       );
   TextStyle get bodyText1 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 14,
       );
   TextStyle get bodyText2 => GoogleFonts.getFont(
-        'Poppins',
+        'Montserrat',
         color: secondaryText,
         fontWeight: FontWeight.w600,
         fontSize: 14,
