@@ -428,6 +428,7 @@ class _Createaccount1WidgetState extends State<Createaccount1Widget> {
                   padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       FFButtonWidget(
                         onPressed: () {

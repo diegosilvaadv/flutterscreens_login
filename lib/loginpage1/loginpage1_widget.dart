@@ -82,7 +82,6 @@ class _Loginpage1WidgetState extends State<Loginpage1Widget> {
                             controller: textController1,
                             obscureText: false,
                             decoration: InputDecoration(
-                              labelText: 'E-mail ou Nome de Usuário',
                               hintText: 'E-mail ou Nome de Usuário',
                               enabledBorder: UnderlineInputBorder(
                                 borderSide: BorderSide(
@@ -156,7 +155,6 @@ class _Loginpage1WidgetState extends State<Loginpage1Widget> {
                                 controller: textController2,
                                 obscureText: !passwordVisibility,
                                 decoration: InputDecoration(
-                                  labelText: 'Senha',
                                   hintText: 'Senha',
                                   enabledBorder: InputBorder.none,
                                   focusedBorder: InputBorder.none,
